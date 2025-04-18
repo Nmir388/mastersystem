@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  background-color: #005ED0;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  color: white;
+}
+
+div {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
