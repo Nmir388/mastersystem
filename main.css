@@ -32,6 +32,15 @@ button {
   cursor: pointer;
 }
 
+input {
+  width: 100%;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #333333;
+  border: none;
+}
+
 .section {
   width: 100%;
   padding: 0 370px;
@@ -79,4 +88,56 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 97px;
+  padding-bottom: 193px;
+
+  color: #ffffff;
+}
+
+.intro__left {
+  width: 480px;
+}
+
+.intro__title {
+  font-size: 48px;
+  margin-bottom: 22px;
+}
+
+.intro__text {
+  opacity: 0.7;
+  margin-bottom: 40px;
+}
+
+.intro__text--small {
+  opacity: 1;
+  font-size: 15px;
+}
+
+.intro__form {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.intro__input {
+  padding: 14px 18px;
+  font-size: 15px;
+  background-color: #ffffff;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.intro__button {
+  padding: 14px 20px;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 700;
+  background-color: #ff6100;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  text-wrap: nowrap;
+}
+
+.intro__link {
+  color: #ff6100;
 }
