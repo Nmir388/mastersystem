@@ -141,3 +141,61 @@ input {
 .intro__link {
   color: #ff6100;
 }
+.about__logo {
+  color: #e3e7f2;
+  margin-top: 58px;
+  margin-bottom: 28px;
+}
+
+/* .about__line {
+  width: 100px;
+  height: 186px;
+  opacity: 20%;
+  color: #5f5f5fcc;
+} */
+
+.about__title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 48px;
+}
+
+.about__text {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  opacity: 0.7;
+}
+
+/* .description { даже по центру не получается выравнять, то ли теги хуево расставил, толи шо. но оно не реагирует на мои команды
+} */
+.computer_icon {
+  opacity: 1;
+}
+
+.description__text__top {
+  opacity: 0.7;
+}
+
+.description__text__bottom {
+  opacity: 0.7;
+}
+
+.description__title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 48px;
+  color: #333333;
+  opacity: 1;
+}
+.description__button {
+  font-family: "PT Sans", sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #ff6100;
+  border-radius: 8px;
+  padding-bottom: 11px;
+  padding-top: 11px;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+.description__scrin {
+  display: flex;
+}
